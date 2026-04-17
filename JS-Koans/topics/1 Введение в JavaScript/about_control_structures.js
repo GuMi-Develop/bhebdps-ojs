@@ -37,10 +37,10 @@ describe("About Control Structures (about_control_structures.js)", function () {
 
   it("ternary operator", function () {
     let fruit = true ? "apple" : "orange";
-    expect(FILL_ME_IN).toBe(fruit, "what is the value of fruit?");
+    expect("apple").toBe(fruit, "what is the value of fruit?");
 
     fruit = false ? "apple" : "orange";
-    expect(FILL_ME_IN).toBe(fruit, "now what is the value of fruit?");
+    expect("orange").toBe(fruit, "now what is the value of fruit?");
   });
 
   it("switch", function () {
